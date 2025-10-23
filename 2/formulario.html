@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <fieldset>
+        <H2>Formulario basico</H2>
+
+        <form action="procesar.php" method="php">
+
+            <!-- get te concatena los resultados en la barra de busqueda y php te manda la respuesta por debajo-->
+            <fieldset>
+                <legend>Personaje</legend>
+                <label>Superheroe favortio:</label>
+                <br>
+                <input list="superheroes" name="superheroe" placeholder="Elige tu superheroe..." >
+                <datalist id="superheroes">
+                    <option label="spiderman" value="spiderman"></option>
+                    <option label="batman" value="batman"></option>
+                    <option label="superman" value="superman"></option>
+                    <option label="wonderwoman" value="wonderwoman"></option>
+                </datalist>
+                <br>
+                <br>
+                <input type="color" >
+                <br>
+                <br>
+
+                <fieldset>
+                    <legend>Edad:</legend>
+                    <input type="number" name="edad" placeholder="ponga su edad...">
+                </fieldset>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+
+        </form>
+
+    </fieldset>
+</body>
+
+</html>
