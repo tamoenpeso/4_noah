@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Formulario avanzado</title>
+</head>
+<body>
+
+  <h2>Formulario de contacto</h2>
+
+  <form action="gabriel.catral@educa.madrid.org" method="POST" enctype="text/plain">
+
+    <fieldset>
+      <legend>Personaje</legend>
+      Superhéroe favorito:
+      <select name="superheroe">
+        <option value="">Elige</option>
+        <option>Iron Man</option>
+        <option>Spiderman</option>
+        <option>Thor</option>
+      </select><br><br>
+      Color: <input type="color" name="color">
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de contacto</legend>
+      Nombre: <input type="text" name="nombre"><br><br>
+      Teléfono: <input type="tel" name="tel"><br><br>
+      Fecha: <input type="date" name="fecha"><br><br>
+      Contraseña: <input type="password" name="password">
+    </fieldset>
+
+    <fieldset>
+      <legend>Forma de contacto</legend>
+      <input type="radio" name="contacto" value="Email"> Email
+      <input type="radio" name="contacto" value="Teléfono"> Teléfono
+      <input type="radio" name="contacto" value="Carta"> Carta
+    </fieldset>
+
+    <fieldset>
+      <legend>Asignaturas favoritas</legend>
+      <input type="checkbox" name="asignatura" value="Aplicaciones web"> Aplicaciones web<br>
+      <input type="checkbox" name="asignatura" value="Seguridad informática"> Seguridad informática<br>
+      <input type="checkbox" name="asignatura" value="Bases de datos"> Bases de datos
+    </fieldset>
+
+    <fieldset>
+      <legend>campos extras </legend>
+      Página web: <input type="url" name="web"><br><br>
+      Hora: <input type="time" name="hora"><br><br>
+      Buscar: <input type="search" name="buscar">
+    </fieldse>
+
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+
+  </form>
+
+</body>
+</html>
+
