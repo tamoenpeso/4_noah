@@ -7,22 +7,29 @@
 </head>
 
 <body>
-    <H2>Formulario basico</H2>
-<form action="procesar.php" method="php">  <!-- get te concatena los resultados en la barra de busqueda y php te manda la respuesta por debajo-->
+    <fieldset>
+        <H2>Formulario basico</H2>
 
-    <label>Nombre</label>
-<input type="text" name="nombre"  placeholder="ponga su nombre...">
+        <form action="procesar.php" method="php">
 
-<br>
-<br>
-<br>
-    <label>Edad:</label>
+            <!-- get te concatena los resultados en la barra de busqueda y php te manda la respuesta por debajo-->
+            <fieldset>
+                <legend>Nombre</legend>
+                <input type="text" name="nombre" placeholder="ponga su nombre...">
 
-<input type="number" name="edad"  placeholder="ponga su edad...">
-<br>
-<br>
-<input type="submit" value="Enviar">
-</form>
+                <br>
+                <br>
+                <br>
+
+                <label>Edad:</label>
+
+                <input type="number" name="edad" placeholder="ponga su edad...">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+
+        </form>
 
 
 
