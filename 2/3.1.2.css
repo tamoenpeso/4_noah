@@ -17,7 +17,7 @@ th, td {
    width: 10%;                 
    margin: 2%;                 
    padding: 2%;                 
-   border: 5px outset #999;     
+   border: 5px outset #969696;     
 }
 
 
@@ -48,14 +48,16 @@ thead > tr:first-child > th:first-child {
 
 
 
-.aplicaciones_web { background-color: #ffffff; }
-.entornos         { background-color: #d9ead3; }
-.despliegue       { background-color: #fff2cc; }
-.servidor         { background-color: #f4cccc; }
-.empresa          { background-color: #ead1dc; }
-.cliente          { background-color: #cfe0e8; }
-.recreo           { background-color: #ffe599; }
-
+.aplicaciones_web { background-color: #f79a9a; }
+.sor         { background-color: #d9ead3; }
+.sred       { background-color: #fff2cc; }
+.ingles         { background-color: #d47272; }
+.python          { background-color: #ead1dc; }
+.seguridad          { background-color: #cfe0e8; }
+.fol           { background-color: #ffe599; }
+.digitalizacion  { background-color: #b4a7d6; }
+.sosten        { background-color: #a2c4c9; }   
+.recreo { background-color: #98ffff; }
 
 td:hover {
    filter: brightness(90%);     
@@ -85,7 +87,7 @@ td span a {
 
 
 .recreo:hover {
-   background-color: #fff2cc;   
+   background-color: #a39363;   
 }
 
 
