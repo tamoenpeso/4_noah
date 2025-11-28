@@ -1,37 +1,97 @@
-footer{
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+header {
+    background-image: url('../assets/img/fondo.jpg');
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-size: cover;
+    color: white;
+}
+.knowledge {
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "conocimientos experiencia"
+    "languages languages"
+    ;
+
+
+}
+
+.languages {
+    grid-area: "languages";
+
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+nav {
+    border-top: 1px solid;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+
+nav li.active {
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+
+nav li.active:hover {
+    cursor: default;
+
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+#skills article>div {
+    display: grid;
+    padding-left: 50px;
+
+}
+
+
+
+footer {
     padding: 1em.5em;
     background: grey;
     color: white;
     text-align: right;
+    margin-top: 100%;
+    
 }
-.dog-columnas{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    padding: 10px;
-}
-       .container {
-           display: grid;
-           grid-template-rows: auto auto auto;
-           grid-template-columns: 70% 30%;
-           grid-template-areas:
-               "cabecera cabecera"
-               "main aside"
-               "footer footer";
-           width: 100%;
-       }
-         header {
-              grid-area: cabecera;
-              background-color: rgb(180, 216, 219);
-              padding: 10px;
-              text-align: center;
-              font-size: 35px;
-              font-weight: bold;
-         }
-         header img {
-             width: 80px;
-             height: 80px;
-             border-radius: 50%;
-             vertical-align: middle;
-             margin-right: 20px;
-         }
