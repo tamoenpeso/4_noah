@@ -12,3 +12,7 @@ debugger;
 if (esViernes == true) {
     console.log("Por fin es viernes");
 }
+
+var nombreusuario = prompt("Cual es tu nombre?");
+console.log("El nombre del usuario es: " + nombreusuario);
+document.write("<h1> " + nombreusuario + "</h1>");
