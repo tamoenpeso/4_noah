@@ -8,6 +8,7 @@ console.log(localStorage);
 alert("prueba de codigo");
 var esViernes = true;
 console.log("Es viernes: " + environment);
-if (esViernes == true){
+debugger;
+if (esViernes == true) {
     console.log("Por fin es viernes");
 }
